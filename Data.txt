@@ -1,0 +1,26 @@
+url:value:staging.macmillan-learning.com/college/us
+driverpathinfo:value:/home/qainfotech/Downloads/chromedriver
+signin:xpath://a[@href="/college/us/login"]
+createacc:xpath://button[@id="createAccount"]
+firstname:xpath://input[@id="firstName"]
+lastname:xpath://input[@id="lastName"]
+email:xpath://input[@id="email"]
+pass:xpath://input[@id="password"]
+confirmpass:xpath://input[@id="confirmPassword"]
+secques1:xpath://select[@id="Security_Question_1__c"]
+ques1:xpath://option[@value="What is the first and last name of your first boyfriend or girlfriend?"]
+answer1:xpath://input[@id="Security_Question_1_Answer__c"]
+secques2:xpath://select[@id="Security_Question_2__c"]
+answer2:xpath://input[@id="Security_Question_2_Answer__c"]
+secques3:xpath://select[@id="Security_Question_3__c"]
+answer3:xpath://input[@id="Security_Question_3_Answer__c"]
+college:xpath://input[@class='react-autosuggest__input']
+selectfromdropdown:xpath://span[text()='Fortis College']
+checkbox1:xpath://input[@id='OptIn__c']
+checkbox2:xpath://input[@id='Terms_of_Service__c']
+signup:xpath://button[@id="signup"]
+vistext2:value:What street did you grow up on?
+vistext3:value:What was your favorite place to visit as a child?
+user:xpath://input[@id="username"]
+passwo:xpath://input[@id="password"]
+loginbutton:xpath://button[@id="signin"]
